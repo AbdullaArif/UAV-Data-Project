@@ -1,0 +1,12 @@
+cv2.CascadeClassifier ile yüz tespiti için gerekli sınıflandırıcıyı yükleriz.
+
+cv2.imread ile resmi okuruz.
+
+Resmi gri tonlamaya çeviririz, çünkü yüz tespiti genellikle gri tonlamalı resimlerde yapılır.
+
+yuz_tespiti_cascades.detectMultiScale ile yüz tespiti yaparız.
+
+Tespit edilen yüzleri dikdörtgen içine alarak işaretleriz.
+
+
+cv2.imshow ile sonucu gösteririz.

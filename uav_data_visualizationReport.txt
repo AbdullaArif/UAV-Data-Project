@@ -1,0 +1,10 @@
+İlk satır, gerekli kütüphaneleri içe aktarır. pandas veri analizi ve manipülasyonu için kullanılır, matplotlib.pyplot grafiğin oluşturulması için kullanılır, numpy matematiksel işlemler yapmak için kullanılır, time zaman işlemleri için kullanılır ve os işletim sistemi bağımsız komutlar için kullanılır.
+
+2 kısımda bir Pandas DataFrame olan sensor_data oluşturuluyor. Bu DataFrame, zaman, yükseklik ve hız verilerini içerir. Zaman 0'dan 100'e kadar artan sayılar içerirken, yükseklik ve hız verileri rastgele oluşturulmuştur.
+
+
+Kullanıcıdan gösterim frekansını almak için bir giriş beklenir.
+
+Sonsuz bir döngü içinde, DataFrame üzerinde iterasyon yapılır. Her bir satırın zaman, yükseklik ve hız değerleri ekrana yazdırılır. Ardından, kullanıcının belirlediği frekansa göre bir süre beklenir ve ekran temizlenir (Windows için 'cls', diğer işletim sistemleri için 'clear').
+
+Her bir veri seti gösterildikten sonra kullanıcıdan devam etmek isteyip istemediği sorulur. Eğer kullanıcı "E" (evet) demezse, döngüden çıkılır ve program sona erer.
