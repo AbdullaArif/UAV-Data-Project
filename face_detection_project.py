@@ -1,7 +1,7 @@
 import cv2
 
 # Resim dosyasının adını belirtin
-resim_adi = "resimDosyasi.jpg"  # Bu dosya adını, kullanacağınız resim dosyasının adıyla değiştirin
+resim_adi = "yuzResmi2.jpg"  # Bu dosya adını, kullanacağınız resim dosyasının adıyla değiştirin
 
 # Cascade Classifier'ı yüz tespiti için yükleyin
 yuz_tespiti_cascades = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
